@@ -6,7 +6,7 @@ let package = Package(
     name: "TrackChangesPrimitive",
     platforms: [
         .macOS(.v14),
-        .iOS(.v15),
+        .iOS(.v17),
     ],
     products: [
         .library(name: "TrackChangesPrimitive", targets: ["TrackChangesPrimitive"]),
