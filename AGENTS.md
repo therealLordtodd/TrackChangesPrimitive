@@ -3,6 +3,17 @@
 ## Purpose
 TrackChangesPrimitive owns portable tracked-change records, author identity, anchors, visibility modes, and the observable `ChangeTracker` used by review UI.
 
+## Repositories & Local Paths
+
+| Package | Repository | Local Path |
+|---------|------------|------------|
+| **TrackChangesPrimitive** | https://github.com/therealLordtodd/TrackChangesPrimitive.git | `/Users/todd/Building - Apple/Packages/TrackChangesPrimitive` |
+
+## Build & Test
+
+- Build: `swift build`
+- Test: `swift test`
+
 ## Key Directories
 - `Sources/TrackChangesPrimitive`: Change models and `ChangeTracker`.
 - `Tests/TrackChangesPrimitiveTests`: Model and tracker behavior tests.
