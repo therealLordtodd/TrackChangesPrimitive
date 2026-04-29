@@ -24,6 +24,10 @@ TrackChangesPrimitive owns portable tracked-change records, author identity, anc
 - Do not apply document mutations in this package. Accept/reject removes change records; consumers decide how text changes are materialized.
 - Preserve `ChangeVisibility.final` as the public convenience for the encoded `.final_` case.
 
+## UI Posture
+
+N/A — no UI surface. TrackChangesPrimitive owns the value model and tracker; review UI belongs to consumers. Reviewed 2026-04-29 (Theme & HIG audit round 1).
+
 ## Testing
 - Run `swift test` before committing.
 - Add `ChangeTrackerTests` coverage for recording, visibility, navigation, accept/reject, and observers.
