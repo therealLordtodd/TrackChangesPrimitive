@@ -47,3 +47,7 @@ This primitive is a member of the Document Editor primitive family. It participa
 **Changes that alter public API, shared type definitions, or convention contracts MUST include a ripple-analysis section in the commit or PR description** identifying which siblings could be affected and how.
 
 Standalone consumers (apps just importing this primitive) are unaffected by this discipline — it applies only to modifications to the primitive itself.
+
+## Performance posture
+
+No performance-critical hot paths — pure model. Reviewed 2026-04-29 (round 1).
